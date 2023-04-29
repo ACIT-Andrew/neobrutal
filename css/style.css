@@ -5,18 +5,34 @@ body{
 
 .banner{
     overflow: hidden;
+    height: fit-content;
     width: 100%;
-    border: red 3px solid;
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.board{
+    overflow: hidden;
+    height: fit-content;
+    width: 100%;
+    /* border: red 1px solid; */
     display: flex;
     justify-content: center;
 }
 
 .roll{
+    /* border: red 1px solid; */
     display: flex;
     gap: 30px;
-    align-items: center;
-    margin: 80px 40px 80px;
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: left; */
+    padding: 30px 0px 50px;
+    height: fit-content;
     width: 9999rem;
+
+    position: relative;
+    left: 10%;
 }
 
 .green{
@@ -26,17 +42,17 @@ body{
     background:#FFFDEA;
 }
 .shadow{
-    box-shadow: 0px 10px 5px 5px #0000001A;
+    box-shadow: 0px 10px 20px 0px #0000001F;    
 }
 .medium{
     border: 1px solid #000000;
-    height: 317px;
-    width: 495px;
-    border-radius: 20px;
+    border-radius: 1rem;
+    height: calc(317px * 0.8);
+    width: calc(495px * 0.8);
 }
 .large{
     border: 1px solid #000000;
-    height: 482px;
-    width: 676px;
-    border-radius: 20px;
+    border-radius: 1rem;
+    height: calc(482px * 0.9);
+    width: calc(676px * 0.9);
 }
