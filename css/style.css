@@ -36,23 +36,23 @@ body{
 }
 
 .green{
-    background: #f3ffea;
+    background: rgba(243, 255, 234, 1);
 }
 .yellow{
-    background:#FFFDEA;
+    background: rgba(255, 253, 234, 1);
 }
 .shadow{
     box-shadow: 0px 10px 20px 0px #0000001F;    
 }
 .medium{
     border: 1px solid #000000;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     height: calc(317px * 0.8);
     width: calc(495px * 0.8);
 }
 .large{
     border: 1px solid #000000;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     height: calc(482px * 0.9);
     width: calc(676px * 0.9);
 }
