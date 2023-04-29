@@ -6,6 +6,9 @@ body{
 .banner{
     overflow: hidden;
     width: 100%;
+    border: red 3px solid;
+    display: flex;
+    justify-content: center;
 }
 
 .roll{
@@ -14,7 +17,6 @@ body{
     align-items: center;
     margin: 80px 40px 80px;
     width: 9999rem;
-    /* overflow: hidden; */
 }
 
 .green{
